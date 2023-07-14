@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 60px;
+}
+.navbar__img {
+    height: 44px;
+    margin-left: 10px;
+    width: auto;
+}
+.image__container {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.image__container--frame {
+    width: 650px;
+    height: 440px;
+    object-fit: cover;
+}
