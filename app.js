@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-let dados = ''
+let dados = {}
 io.on('connection', (socket) => {
   console.log('a user connected');
   setInterval(() => {
