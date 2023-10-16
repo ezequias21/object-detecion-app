@@ -19,7 +19,7 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image__container--frame {
-    width: 650px;
-    height: 440px;
+    width: 640px;
+    height: auto;
     object-fit: cover;
 }
